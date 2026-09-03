@@ -2,6 +2,7 @@
 
 from .mouth import FIXTURE_CAPS, LiteClosed, MouthDecision, apply_caps, require_caps
 from .extract import (
+    DO_NOT_COPY,
     FIXTURE_DROP,
     FIXTURE_KEEP,
     ExtractResult,
@@ -12,6 +13,7 @@ from .extract import (
 )
 
 __all__ = [
+    "DO_NOT_COPY",
     "FIXTURE_CAPS",
     "FIXTURE_DROP",
     "FIXTURE_KEEP",
