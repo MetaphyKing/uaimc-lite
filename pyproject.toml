@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uaimc-lite"
+version = "0.1.0"
+description = "UAIMC-Lite GBC fixture package. Mouth-caps first, then fixture extract. Not live :8767."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Randell Logan Smith", email = "logan@metaphysicsandcomputing.com" },
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/MetaphyKing/uaimc-lite"
+Repository = "https://github.com/MetaphyKing/uaimc-lite"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["uaimc_lite*"]
+
+[tool.pytest.ini_options]
+testpaths = ["uaimc_lite/tests"]
+pythonpath = ["."]
