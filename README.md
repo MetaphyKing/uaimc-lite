@@ -1,3 +1,9 @@
+<p align="center">
+  <img width="1280" height="850" alt="stay-hero" src="https://github.com/MetaphyKing/uaimc-lite/blob/main/assets/uaimc-lite-hero.webp?raw=true"> 
+</p>
+
+---
+
 # UAIMC-Lite v0.1.0-fixture
 
 GBC Production v1 **fixture package** (Logan GO 2026-09-03). Reviewable code for UAIMC-Lite: mouth-caps at the ingest mouth, then lite extraction into a new shape. Not a live cutover.
