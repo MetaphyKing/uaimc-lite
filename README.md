@@ -13,7 +13,7 @@ Version: `0.1.0-fixture` (see `VERSION`).
 | `uaimc_lite/contract.py` | Path-level Tier A registry. |
 | `uaimc_lite/refuse.py` | DEDUP SENTINEL + explicit refuse. Never hang. Never lie. |
 | `uaimc_lite/tests/` | Mouth, extract, Bible 10.2 failure-path. |
-| `docs/` | `SPEC.md`, `SPEC_PACK.md`, `HOLES_PROGRESS.md`. |
+| `SPEC.md` `SPEC_PACK.md` `HOLES_PROGRESS.md` | LOCKED specs (also copied under `docs/`). |
 
 Harness/fixture only. No live server. No AA9 writes. No secrets. No `.env`.
 
@@ -70,4 +70,4 @@ Expected: `23 passed`; stamps `MOUTH_CAPS_OK`, `LITE_EXTRACT_OK`, `FAILURE_PATH_
 - **A1 / H2** — numeric cap table (rates, hub thresholds, `graph:*` patterns, integer ceilings).
 - **H3 / A2 wire** — enumerable drop-list schema and mouth-reject HTTP envelope.
 
-See `docs/HOLES_PROGRESS.md` and `docs/SPEC.md` §6.
+See `HOLES_PROGRESS.md` / `docs/HOLES_PROGRESS.md` and `SPEC.md` §6.
