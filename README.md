@@ -61,9 +61,10 @@ PYTHONPATH=. python3 -m pytest uaimc_lite/tests -q
 PYTHONPATH=. python3 uaimc_lite/tests/test_mouth.py
 PYTHONPATH=. python3 uaimc_lite/tests/test_extract.py
 PYTHONPATH=. python3 uaimc_lite/tests/test_failure_path_10_2.py
+PYTHONPATH=. python3 uaimc_lite/tests/test_fail_closed.py
 ```
 
-Expected: `23 passed`; stamps `MOUTH_CAPS_OK`, `LITE_EXTRACT_OK`, `FAILURE_PATH_10_2_OK`; FIXTURE labels `locked=False`.
+Expected: suite green; stamps `MOUTH_CAPS_OK`, `LITE_EXTRACT_OK`, `FAILURE_PATH_10_2_OK`, `FAIL_CLOSED_OK`; FIXTURE labels `locked=False`.
 
 ## Safety
 
@@ -73,7 +74,10 @@ Expected: `23 passed`; stamps `MOUTH_CAPS_OK`, `LITE_EXTRACT_OK`, `FAILURE_PATH_
 
 ## Still open — do not invent
 
-- **A1 / H2** — numeric cap table (rates, hub thresholds, `graph:*` patterns, integer ceilings).
+- **A1 / H2** — numeric cap table (rates, hub thresholds, `graph:*` patterns, integer ceilings). Fixture integers in this pack are not production caps.
 - **H3 / A2 wire** — enumerable drop-list schema and mouth-reject HTTP envelope.
+- **H4** — live Tier A HTTP payload schemas.
+- **Iris F3** — withdrawn; not implemented here.
+- **E2–E4** — not labeled in SPEC/tests on this fixture tip; only F9/E1 (live-path case/slash) is closed.
 
 See `HOLES_PROGRESS.md` / `docs/HOLES_PROGRESS.md` and `SPEC.md` §6.

@@ -15,7 +15,7 @@ OUT_OF_A = (
     ("GET", "/ws"),
 )
 
-# Sampler polls these; Spec choice: sampler-not-a-contract-caller until H6 ruled.
+# Sampler polls these. Spec H6 ruling: B-compat, not LOCKED A, not silent drop.
 NON_CONTRACT_SAMPLER = (
     ("GET", "/ready"),
     ("GET", "/stats"),
